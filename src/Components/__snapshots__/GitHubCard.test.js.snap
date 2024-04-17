@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GitHubCard renders a snapshot 1`] = `
+<div
+  className="d-flex justify-content-center align-items-center"
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "width": "20rem",
+      }
+    }
+  >
+    <img
+      alt="profile"
+      className="card-img-top"
+      src="https://example.com/avatar.png"
+    />
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-title h5"
+      >
+        testuser
+      </div>
+      <p
+        className="card-text"
+      >
+        <a
+          href="https://github.com/testuser"
+          target="blank"
+        >
+          Profile
+        </a>
+        <p>
+          Bio: 
+          This is a test bio
+        </p>
+      </p>
+    </div>
+  </div>
+</div>
+`;
